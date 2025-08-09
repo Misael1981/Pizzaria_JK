@@ -1,0 +1,11 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".", // A base para a resolução de módulos será a raiz do projeto
+    "paths": {
+      "@/*": ["./src/*"] // Mapeia o '@/' para o caminho './src/'
+    },
+    "jsx": "react-jsx" // Indica que você está usando JSX
+  },
+  "include": ["src/**/*"] // Inclui todos os arquivos na pasta 'src' para o IntelliSense
+}
