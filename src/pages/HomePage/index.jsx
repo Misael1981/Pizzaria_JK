@@ -15,6 +15,11 @@ const PageHeader = styled.h2`
   color: var(--text-dark);
   margin-bottom: 30px;
   font-size: 2rem;
+  text-align: end;
+
+  @media screen and (width > 744px) {
+    text-align: start;
+  }
 `;
 
 // Contêiner para os cards de resumo, usando flexbox para organizar.
